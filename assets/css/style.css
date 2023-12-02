@@ -33,6 +33,14 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.centerList {
+  display: table;
+}
+.centeredList {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -620,10 +628,10 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  background: rgba(255, 255, 255, 0.7);
 }
 
-.portfolio .portfolio-wrap::before {
+.portfolio .portfolio-wrap::before{
   content: "";
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
@@ -762,8 +770,8 @@ section {
 }
 
 .portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
+  padding: 10px;
+  box-shadow: 0px 0 20px rgba(255, 255, 255, 0.3);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -786,6 +794,7 @@ section {
 
 .portfolio-details .portfolio-description {
   padding-top: 30px;
+
 }
 
 .portfolio-details .portfolio-description h2 {
