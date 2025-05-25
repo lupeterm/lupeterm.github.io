@@ -1,1 +1,0 @@
-import{_ as a,c as s,aA as o,o as r}from"./Bp4d-hSC.js";const t={};function n(e,c){return r(),s("table",null,[o(e.$slots,"default")])}const _=Object.assign(a(t,[["render",n]]),{__name:"ProseTable"});export{_ as default};
